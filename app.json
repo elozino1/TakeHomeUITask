@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "TakeHomeUITask",
+    "slug": "TakeHomeUITask",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
