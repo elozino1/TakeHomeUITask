@@ -21,8 +21,10 @@ const styles = StyleSheet.create({
         padding: 7,
     },
     label: {
-        fontSize: 15,
+        fontSize: 16,
         fontWeight: '400',
+        color: colors.textBlack,
+        fontFamily: 'HelveticaNowDisplay'
     },
 })
 

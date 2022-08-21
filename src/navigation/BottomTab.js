@@ -25,21 +25,20 @@ const BottomTabStack = () => {
         tabBarStyle: {
           backgroundColor: '#FFFFFF',
           height: Platform.OS =="android"? 60: 85,
-          borderTopColor: '#FFFFFF'
+          borderTopColor: '#FFFFFF',
         },
         tabBarItemStyle: {
           marginBottom: 10
         },
         tabBarLabelStyle: {
-          color: '#000000',
           fontSize: 12,
           fontWeight: '400',
           lineHeight: 20,
+          fontFamily: 'PoppinsRegular'
         },
         tabBarIconStyle:{
           marginTop: Platform.OS =="android"? 10: 5,
         }
-        
       })}
     >
       <Tab.Screen name="Dashboard" component={DashboardStack} options={{

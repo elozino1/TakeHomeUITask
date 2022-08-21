@@ -4,7 +4,7 @@ import React from 'react'
 
 const Search = () => {
     return (
-        <SafeAreaView>
+        <SafeAreaView style={{margin: 10}}>
             <View>
                 <Text>Search</Text>
             </View>

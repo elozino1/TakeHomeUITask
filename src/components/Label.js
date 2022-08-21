@@ -1,11 +1,18 @@
-import React from 'react'
-import { Text } from 'react-native'
+import { StyleSheet, Text } from 'react-native'
 
-const Label = ({ text, style={}, onPress = () => {} }) => {
+import React from 'react'
+
+const Label = ({ text, style={}, onPress}) => {
 
     return (
-        <Text style={style} onPress={onPress}>{text}</Text>
+        <Text style={[styles.text, style]} onPress={onPress}>{text}</Text>
     )
 }
+
+const styles = StyleSheet.create({
+    text: {
+        fontFamily: 'PoppinsRegular',
+    }
+})
 
 export default Label
